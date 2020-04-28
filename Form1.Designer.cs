@@ -37,9 +37,10 @@
             // BUTTON
             // 
             this.BUTTON.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.BUTTON.Location = new System.Drawing.Point(44, 141);
+            this.BUTTON.Location = new System.Drawing.Point(59, 174);
+            this.BUTTON.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON.Name = "BUTTON";
-            this.BUTTON.Size = new System.Drawing.Size(128, 36);
+            this.BUTTON.Size = new System.Drawing.Size(171, 44);
             this.BUTTON.TabIndex = 0;
             this.BUTTON.Text = "CHANGE ME";
             this.BUTTON.UseVisualStyleBackColor = true;
@@ -49,9 +50,10 @@
             // CHECKBOX
             // 
             this.CHECKBOX.AutoSize = true;
-            this.CHECKBOX.Location = new System.Drawing.Point(44, 106);
+            this.CHECKBOX.Location = new System.Drawing.Point(59, 130);
+            this.CHECKBOX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CHECKBOX.Name = "CHECKBOX";
-            this.CHECKBOX.Size = new System.Drawing.Size(120, 17);
+            this.CHECKBOX.Size = new System.Drawing.Size(147, 21);
             this.CHECKBOX.TabIndex = 1;
             this.CHECKBOX.Text = "WLACZ / WYLACZ";
             this.CHECKBOX.UseVisualStyleBackColor = true;
@@ -59,9 +61,10 @@
             // 
             // TEXTBOX
             // 
-            this.TEXTBOX.Location = new System.Drawing.Point(12, 58);
+            this.TEXTBOX.Location = new System.Drawing.Point(16, 71);
+            this.TEXTBOX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX.Name = "TEXTBOX";
-            this.TEXTBOX.Size = new System.Drawing.Size(196, 20);
+            this.TEXTBOX.Size = new System.Drawing.Size(260, 22);
             this.TEXTBOX.TabIndex = 2;
             this.TEXTBOX.TextChanged += new System.EventHandler(this.TEXTBOX_TextChanged);
             // 
@@ -69,22 +72,24 @@
             // 
             this.LABEL.AutoSize = true;
             this.LABEL.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.LABEL.Location = new System.Drawing.Point(39, 9);
+            this.LABEL.Location = new System.Drawing.Point(67, 18);
+            this.LABEL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LABEL.Name = "LABEL";
-            this.LABEL.Size = new System.Drawing.Size(143, 26);
+            this.LABEL.Size = new System.Drawing.Size(150, 31);
             this.LABEL.TabIndex = 3;
-            this.LABEL.Text = "KWZP KARP";
+            this.LABEL.Text = "KWZP LAB";
             this.LABEL.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(220, 200);
+            this.ClientSize = new System.Drawing.Size(293, 246);
             this.Controls.Add(this.LABEL);
             this.Controls.Add(this.TEXTBOX);
             this.Controls.Add(this.CHECKBOX);
             this.Controls.Add(this.BUTTON);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
